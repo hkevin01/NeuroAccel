@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Distribution
+*.tar.gz
+*.whl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.nii.gz
+*.nii
+*.dcm
+cache/
+logs/
+results/
+temp/
+
+# CUDA/ROCm
+*.ptx
+*.cubin
+*.fatbin
+
+# Environment
+.env
+.env.*
